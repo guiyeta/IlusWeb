@@ -1,0 +1,30 @@
+Guillermina Charles Mengeon. DNI: 43034650. Final de Informatica Aplicada I
+Licenciatura en Artes Multimediales, Universidad Nacional de las Artes.
+
+El sitio es creado para conectar ilustradores entre si. En esta primera version
+que cumple con las consignas del final de la materia, el usuario inicia sesion, o se registra, 
+y entra a una pagina en la que se encuentra con ilustraciones subidas por otros usuarios,
+tambien con las que subio el si lo hizo anteriormente, esta galeria es un pozo con las imegenes de todes.
+Tiene en el navegador la opcion de ir una pagina que le permite subir imagenes (Estas se suben al servidor
+y se registran en la base de datos). Una opcion de editar perfil, donde el usuario puede cambiar contraseña
+y mail. En el caso de ser adminitrador, tambien dara la opcion de ver datos de un usuario o eliminarlo.
+Ademas otra pagina que le permite ver las imagenes que subio el anteriormente,
+la opcion de salir (cerrar sesion) y la obra colavorativa en cuestion.
+La obra colaborativa es una superpocicion de imagenes de todos los usuarios del sitio, a medida que suben 
+una imagen, esta se suma a la base de datos y esta primera en el orden de prioridad
+para ser mostrada en el sketch.
+Este fue hecho con .p5js en donde se guardan las imagenes en un array, y luego de muestran en una
+posicion random (Pero limitada) del sketch, y con transparencia, lo que hace que se genere una nueva
+obra, tomando las ilustraciones de todos los artistas del sitio.
+
+Dejo datos de usuarios ya creados y con imagenes ya subidas por si es necesario:
+
+Usuario: tres
+contraseña: tres1234
+
+Usuario: jose
+contraseña: jose1234
+
+Administrador:
+Usuario: guiyeta
+Contraseña: guiyeta1234
